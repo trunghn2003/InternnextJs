@@ -71,7 +71,7 @@ export const EditStudent: React.FC<EditStudentProps> = ({ studentId, existingFir
 
     return (
         <div style={{ textAlign: 'center' }}>
-            <Button onClick={openPopup} color="primary" variant="contained">Edit</Button>
+            <Button onClick={openPopup} color="primary" variant="contained">Sửa</Button>
             <Dialog
                 open={open}
                 onClose={closePopup}

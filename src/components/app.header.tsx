@@ -14,6 +14,7 @@ import Link from 'next/link';
 
 const pages = [
     { title: 'Students', path: '/students' },
+    { title: 'Products', path: '/products' },
     { title: 'Residents', path: '/residents' },
 ];
 
